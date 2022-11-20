@@ -1,0 +1,551 @@
+2020-06-14 13:12:46,764 INFO s.SetupTeardownForGoogleTests [main] **********Before Suite has initiated**********
+2020-06-14 13:12:46,769 INFO s.SetupTeardownForGoogleTests [main] **********Before Suite has completed**********
+2020-06-14 13:12:46,770 INFO s.SetupTeardownForGoogleTests [main] **********Before Test is executing**********
+2020-06-14 13:12:46,770 INFO s.SetupTeardownForGoogleTests [main] Setting capabilities for local execution
+2020-06-14 13:12:47,168 INFO s.SetupTeardownForGoogleTests [main] **********Before Test has completed**********
+2020-06-14 13:12:47,184 INFO s.SetupTeardownForGoogleTests [main] **********Before Method is executing**********
+2020-06-14 13:12:47,287 DEBUG i.n.u.i.l.InternalLoggerFactory [main] Using Log4J2 as the default logging framework
+2020-06-14 13:12:47,290 DEBUG i.n.u.ResourceLeakDetector [main] -Dio.netty.leakDetection.level: simple
+2020-06-14 13:12:47,290 DEBUG i.n.u.ResourceLeakDetector [main] -Dio.netty.leakDetection.targetRecords: 4
+2020-06-14 13:12:47,293 DEBUG i.n.u.ResourceLeakDetectorFactory [main] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@302fec27
+2020-06-14 13:12:47,309 DEBUG i.n.u.i.PlatformDependent [main] Platform: Windows
+2020-06-14 13:12:47,311 DEBUG i.n.u.i.PlatformDependent0 [main] -Dio.netty.noUnsafe: false
+2020-06-14 13:12:47,311 DEBUG i.n.u.i.PlatformDependent0 [main] Java version: 8
+2020-06-14 13:12:47,312 DEBUG i.n.u.i.PlatformDependent0 [main] sun.misc.Unsafe.theUnsafe: available
+2020-06-14 13:12:47,312 DEBUG i.n.u.i.PlatformDependent0 [main] sun.misc.Unsafe.copyMemory: available
+2020-06-14 13:12:47,313 DEBUG i.n.u.i.PlatformDependent0 [main] java.nio.Buffer.address: available
+2020-06-14 13:12:47,313 DEBUG i.n.u.i.PlatformDependent0 [main] direct buffer constructor: available
+2020-06-14 13:12:47,314 DEBUG i.n.u.i.PlatformDependent0 [main] java.nio.Bits.unaligned: available, true
+2020-06-14 13:12:47,314 DEBUG i.n.u.i.PlatformDependent0 [main] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-06-14 13:12:47,314 DEBUG i.n.u.i.PlatformDependent0 [main] java.nio.DirectByteBuffer.<init>(long, int): available
+2020-06-14 13:12:47,315 DEBUG i.n.u.i.PlatformDependent [main] sun.misc.Unsafe: available
+2020-06-14 13:12:47,315 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.tmpdir: C:\Users\AMARAHMA\AppData\Local\Temp (java.io.tmpdir)
+2020-06-14 13:12:47,315 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-06-14 13:12:47,315 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.maxDirectMemory: 3760193536 bytes
+2020-06-14 13:12:47,315 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-06-14 13:12:47,316 DEBUG i.n.u.i.CleanerJava6 [main] java.nio.ByteBuffer.cleaner(): available
+2020-06-14 13:12:47,316 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.noPreferDirect: false
+2020-06-14 13:12:47,325 DEBUG i.n.u.i.PlatformDependent [main] org.jctools-core.MpscChunkedArrayQueue: available
+2020-06-14 13:12:47,366 DEBUG i.n.h.s.JdkSslContext [main] Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2020-06-14 13:12:47,366 DEBUG i.n.h.s.JdkSslContext [main] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+2020-06-14 13:12:47,383 DEBUG i.n.u.i.InternalThreadLocalMap [main] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-06-14 13:12:47,383 DEBUG i.n.u.i.InternalThreadLocalMap [main] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-06-14 13:12:47,389 DEBUG i.n.c.MultithreadEventLoopGroup [main] -Dio.netty.eventLoopThreads: 16
+2020-06-14 13:12:47,397 DEBUG i.n.c.n.NioEventLoop [main] -Dio.netty.noKeySetOptimization: false
+2020-06-14 13:12:47,398 DEBUG i.n.c.n.NioEventLoop [main] -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-06-14 13:12:47,429 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.numHeapArenas: 16
+2020-06-14 13:12:47,430 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.numDirectArenas: 16
+2020-06-14 13:12:47,430 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.pageSize: 8192
+2020-06-14 13:12:47,430 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.maxOrder: 11
+2020-06-14 13:12:47,430 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.chunkSize: 16777216
+2020-06-14 13:12:47,430 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.tinyCacheSize: 512
+2020-06-14 13:12:47,430 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.smallCacheSize: 256
+2020-06-14 13:12:47,430 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.normalCacheSize: 64
+2020-06-14 13:12:47,430 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-06-14 13:12:47,430 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-06-14 13:12:47,430 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2020-06-14 13:12:47,430 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.useCacheForAllThreads: true
+2020-06-14 13:12:47,430 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2020-06-14 13:12:47,437 DEBUG i.n.b.ByteBufUtil [main] -Dio.netty.allocator.type: pooled
+2020-06-14 13:12:47,437 DEBUG i.n.b.ByteBufUtil [main] -Dio.netty.threadLocalDirectBufferSize: 0
+2020-06-14 13:12:47,438 DEBUG i.n.b.ByteBufUtil [main] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-06-14 13:12:48,237 DEBUG i.n.c.DefaultChannelId [Forwarding newSession on session null to remote] -Dio.netty.processId: 19260 (auto-detected)
+2020-06-14 13:12:48,240 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] -Djava.net.preferIPv4Stack: false
+2020-06-14 13:12:48,240 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] -Djava.net.preferIPv6Addresses: false
+2020-06-14 13:12:48,358 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-06-14 13:12:48,358 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-06-14 13:12:48,474 DEBUG i.n.c.DefaultChannelId [Forwarding newSession on session null to remote] -Dio.netty.machineId: 94:e6:f7:ff:fe:68:07:31 (auto-detected)
+2020-06-14 13:12:48,520 DEBUG i.n.b.AbstractByteBuf [AsyncHttpClient-3-1] -Dio.netty.buffer.checkAccessible: true
+2020-06-14 13:12:48,521 DEBUG i.n.b.AbstractByteBuf [AsyncHttpClient-3-1] -Dio.netty.buffer.checkBounds: true
+2020-06-14 13:12:48,521 DEBUG i.n.u.ResourceLeakDetectorFactory [AsyncHttpClient-3-1] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@31d513b2
+2020-06-14 13:12:48,542 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.maxCapacityPerThread: 4096
+2020-06-14 13:12:48,542 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2020-06-14 13:12:48,542 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.linkCapacity: 16
+2020-06-14 13:12:48,542 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.ratio: 8
+2020-06-14 13:12:51,470 DEBUG i.n.u.i.ThreadLocalRandom [main] -Dio.netty.initialSeedUniquifier: 0xb3452735181fdab2
+2020-06-14 13:12:51,514 INFO s.SetupTeardownForGoogleTests [main] Initiating driver and opening the specified url in local machine
+2020-06-14 13:12:55,555 INFO s.SetupTeardownForGoogleTests [main] **********Before Method has completed**********
+2020-06-14 13:12:55,562 INFO s.SetupTeardownForGoogleTests [main] Popularity check method has initiated
+2020-06-14 13:12:57,764 INFO s.SetupTeardownForGoogleTests [main] Search clicked after entering data
+2020-06-14 13:12:57,840 INFO s.SetupTeardownForGoogleTests [main] Popularity check method has completed after evaluation of popularity of search object
+2020-06-14 13:12:57,845 INFO s.SetupTeardownForGoogleTests [main] **********After Method is executing**********
+2020-06-14 13:12:58,048 INFO s.SetupTeardownForGoogleTests [main] **********After Method has completed**********
+2020-06-14 13:12:58,055 INFO s.SetupTeardownForGoogleTests [main] **********Before Method is executing**********
+2020-06-14 13:13:01,593 INFO s.SetupTeardownForGoogleTests [main] Initiating driver and opening the specified url in local machine
+2020-06-14 13:13:04,659 INFO s.SetupTeardownForGoogleTests [main] **********Before Method has completed**********
+2020-06-14 13:13:04,660 INFO s.SetupTeardownForGoogleTests [main] Doodle check method has initiated
+2020-06-14 13:13:04,710 INFO s.SetupTeardownForGoogleTests [main] Today is not a Doodle day
+2020-06-14 13:13:04,711 INFO s.SetupTeardownForGoogleTests [main] **********After Method is executing**********
+2020-06-14 13:13:09,057 INFO s.SetupTeardownForGoogleTests [main] **********After Method has completed**********
+2020-06-14 13:13:09,099 INFO s.SetupTeardownForGoogleTests [main] **********After Suite is executing**********
+2020-06-14 13:14:05,273 INFO s.SetupTeardownForGoogleTests [main] **********Before Suite has initiated**********
+2020-06-14 13:14:05,279 INFO s.SetupTeardownForGoogleTests [main] **********Before Suite has completed**********
+2020-06-14 13:14:05,281 INFO s.SetupTeardownForGoogleTests [main] **********Before Test is executing**********
+2020-06-14 13:14:05,281 INFO s.SetupTeardownForGoogleTests [main] Setting capabilities for local execution
+2020-06-14 13:14:05,712 INFO s.SetupTeardownForGoogleTests [main] **********Before Test has completed**********
+2020-06-14 13:14:05,732 INFO s.SetupTeardownForGoogleTests [main] **********Before Method is executing**********
+2020-06-14 13:14:05,858 DEBUG i.n.u.i.l.InternalLoggerFactory [main] Using Log4J2 as the default logging framework
+2020-06-14 13:14:05,860 DEBUG i.n.u.ResourceLeakDetector [main] -Dio.netty.leakDetection.level: simple
+2020-06-14 13:14:05,861 DEBUG i.n.u.ResourceLeakDetector [main] -Dio.netty.leakDetection.targetRecords: 4
+2020-06-14 13:14:05,864 DEBUG i.n.u.ResourceLeakDetectorFactory [main] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@61af1510
+2020-06-14 13:14:05,879 DEBUG i.n.u.i.PlatformDependent [main] Platform: Windows
+2020-06-14 13:14:05,881 DEBUG i.n.u.i.PlatformDependent0 [main] -Dio.netty.noUnsafe: false
+2020-06-14 13:14:05,881 DEBUG i.n.u.i.PlatformDependent0 [main] Java version: 8
+2020-06-14 13:14:05,882 DEBUG i.n.u.i.PlatformDependent0 [main] sun.misc.Unsafe.theUnsafe: available
+2020-06-14 13:14:05,882 DEBUG i.n.u.i.PlatformDependent0 [main] sun.misc.Unsafe.copyMemory: available
+2020-06-14 13:14:05,883 DEBUG i.n.u.i.PlatformDependent0 [main] java.nio.Buffer.address: available
+2020-06-14 13:14:05,883 DEBUG i.n.u.i.PlatformDependent0 [main] direct buffer constructor: available
+2020-06-14 13:14:05,884 DEBUG i.n.u.i.PlatformDependent0 [main] java.nio.Bits.unaligned: available, true
+2020-06-14 13:14:05,884 DEBUG i.n.u.i.PlatformDependent0 [main] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-06-14 13:14:05,884 DEBUG i.n.u.i.PlatformDependent0 [main] java.nio.DirectByteBuffer.<init>(long, int): available
+2020-06-14 13:14:05,885 DEBUG i.n.u.i.PlatformDependent [main] sun.misc.Unsafe: available
+2020-06-14 13:14:05,885 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.tmpdir: C:\Users\AMARAHMA\AppData\Local\Temp (java.io.tmpdir)
+2020-06-14 13:14:05,885 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-06-14 13:14:05,886 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.maxDirectMemory: 3760193536 bytes
+2020-06-14 13:14:05,886 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-06-14 13:14:05,887 DEBUG i.n.u.i.CleanerJava6 [main] java.nio.ByteBuffer.cleaner(): available
+2020-06-14 13:14:05,887 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.noPreferDirect: false
+2020-06-14 13:14:05,896 DEBUG i.n.u.i.PlatformDependent [main] org.jctools-core.MpscChunkedArrayQueue: available
+2020-06-14 13:14:05,938 DEBUG i.n.h.s.JdkSslContext [main] Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2020-06-14 13:14:05,939 DEBUG i.n.h.s.JdkSslContext [main] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+2020-06-14 13:14:05,960 DEBUG i.n.u.i.InternalThreadLocalMap [main] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-06-14 13:14:05,960 DEBUG i.n.u.i.InternalThreadLocalMap [main] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-06-14 13:14:05,967 DEBUG i.n.c.MultithreadEventLoopGroup [main] -Dio.netty.eventLoopThreads: 16
+2020-06-14 13:14:05,976 DEBUG i.n.c.n.NioEventLoop [main] -Dio.netty.noKeySetOptimization: false
+2020-06-14 13:14:05,976 DEBUG i.n.c.n.NioEventLoop [main] -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-06-14 13:14:06,008 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.numHeapArenas: 16
+2020-06-14 13:14:06,017 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.numDirectArenas: 16
+2020-06-14 13:14:06,017 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.pageSize: 8192
+2020-06-14 13:14:06,017 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.maxOrder: 11
+2020-06-14 13:14:06,017 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.chunkSize: 16777216
+2020-06-14 13:14:06,018 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.tinyCacheSize: 512
+2020-06-14 13:14:06,018 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.smallCacheSize: 256
+2020-06-14 13:14:06,018 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.normalCacheSize: 64
+2020-06-14 13:14:06,018 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-06-14 13:14:06,018 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-06-14 13:14:06,018 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2020-06-14 13:14:06,019 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.useCacheForAllThreads: true
+2020-06-14 13:14:06,019 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2020-06-14 13:14:06,044 DEBUG i.n.b.ByteBufUtil [main] -Dio.netty.allocator.type: pooled
+2020-06-14 13:14:06,044 DEBUG i.n.b.ByteBufUtil [main] -Dio.netty.threadLocalDirectBufferSize: 0
+2020-06-14 13:14:06,044 DEBUG i.n.b.ByteBufUtil [main] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-06-14 13:14:06,888 DEBUG i.n.c.DefaultChannelId [Forwarding newSession on session null to remote] -Dio.netty.processId: 18500 (auto-detected)
+2020-06-14 13:14:06,890 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] -Djava.net.preferIPv4Stack: false
+2020-06-14 13:14:06,890 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] -Djava.net.preferIPv6Addresses: false
+2020-06-14 13:14:07,018 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-06-14 13:14:07,018 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-06-14 13:14:07,166 DEBUG i.n.c.DefaultChannelId [Forwarding newSession on session null to remote] -Dio.netty.machineId: 94:e6:f7:ff:fe:68:07:31 (auto-detected)
+2020-06-14 13:14:07,231 DEBUG i.n.b.AbstractByteBuf [AsyncHttpClient-3-1] -Dio.netty.buffer.checkAccessible: true
+2020-06-14 13:14:07,231 DEBUG i.n.b.AbstractByteBuf [AsyncHttpClient-3-1] -Dio.netty.buffer.checkBounds: true
+2020-06-14 13:14:07,231 DEBUG i.n.u.ResourceLeakDetectorFactory [AsyncHttpClient-3-1] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@77d3a7a5
+2020-06-14 13:14:07,266 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.maxCapacityPerThread: 4096
+2020-06-14 13:14:07,266 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2020-06-14 13:14:07,267 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.linkCapacity: 16
+2020-06-14 13:14:07,267 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.ratio: 8
+2020-06-14 13:14:10,222 DEBUG i.n.u.i.ThreadLocalRandom [main] -Dio.netty.initialSeedUniquifier: 0x4fb406db2f415391
+2020-06-14 13:14:10,265 INFO s.SetupTeardownForGoogleTests [main] Initiating driver and opening the specified url in local machine
+2020-06-14 13:14:13,503 INFO s.SetupTeardownForGoogleTests [main] **********Before Method has completed**********
+2020-06-14 13:14:13,534 INFO s.SetupTeardownForGoogleTests [main] Popularity check method has initiated
+2020-06-14 13:14:14,939 INFO s.SetupTeardownForGoogleTests [main] Search clicked after entering data
+2020-06-14 13:14:15,039 INFO s.SetupTeardownForGoogleTests [main] Popularity check method has completed after evaluation of popularity of search object
+2020-06-14 13:14:15,048 INFO s.SetupTeardownForGoogleTests [main] **********After Method is executing**********
+2020-06-14 13:14:19,381 INFO s.SetupTeardownForGoogleTests [main] **********After Method has completed**********
+2020-06-14 13:14:19,386 INFO s.SetupTeardownForGoogleTests [main] **********Before Method is executing**********
+2020-06-14 13:14:22,744 INFO s.SetupTeardownForGoogleTests [main] Initiating driver and opening the specified url in local machine
+2020-06-14 13:14:26,048 INFO s.SetupTeardownForGoogleTests [main] **********Before Method has completed**********
+2020-06-14 13:14:26,051 INFO s.SetupTeardownForGoogleTests [main] Doodle check method has initiated
+2020-06-14 13:14:26,106 INFO s.SetupTeardownForGoogleTests [main] Today is not a Doodle day
+2020-06-14 13:14:26,107 INFO s.SetupTeardownForGoogleTests [main] **********After Method is executing**********
+2020-06-14 13:14:30,463 INFO s.SetupTeardownForGoogleTests [main] **********After Method has completed**********
+2020-06-14 13:14:30,505 INFO s.SetupTeardownForGoogleTests [main] **********After Suite is executing**********
+2020-06-14 13:15:10,060 INFO s.SetupTeardownForGoogleTests [main] **********Before Suite has initiated**********
+2020-06-14 13:15:10,065 INFO s.SetupTeardownForGoogleTests [main] **********Before Suite has completed**********
+2020-06-14 13:15:10,067 INFO s.SetupTeardownForGoogleTests [main] **********Before Test is executing**********
+2020-06-14 13:15:10,067 INFO s.SetupTeardownForGoogleTests [main] Setting capabilities for local execution
+2020-06-14 13:15:10,489 INFO s.SetupTeardownForGoogleTests [main] **********Before Test has completed**********
+2020-06-14 13:15:10,508 INFO s.SetupTeardownForGoogleTests [main] **********Before Method is executing**********
+2020-06-14 13:15:10,635 DEBUG i.n.u.i.l.InternalLoggerFactory [main] Using Log4J2 as the default logging framework
+2020-06-14 13:15:10,638 DEBUG i.n.u.ResourceLeakDetector [main] -Dio.netty.leakDetection.level: simple
+2020-06-14 13:15:10,638 DEBUG i.n.u.ResourceLeakDetector [main] -Dio.netty.leakDetection.targetRecords: 4
+2020-06-14 13:15:10,642 DEBUG i.n.u.ResourceLeakDetectorFactory [main] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2903c6ff
+2020-06-14 13:15:10,662 DEBUG i.n.u.i.PlatformDependent [main] Platform: Windows
+2020-06-14 13:15:10,663 DEBUG i.n.u.i.PlatformDependent0 [main] -Dio.netty.noUnsafe: false
+2020-06-14 13:15:10,663 DEBUG i.n.u.i.PlatformDependent0 [main] Java version: 8
+2020-06-14 13:15:10,665 DEBUG i.n.u.i.PlatformDependent0 [main] sun.misc.Unsafe.theUnsafe: available
+2020-06-14 13:15:10,665 DEBUG i.n.u.i.PlatformDependent0 [main] sun.misc.Unsafe.copyMemory: available
+2020-06-14 13:15:10,666 DEBUG i.n.u.i.PlatformDependent0 [main] java.nio.Buffer.address: available
+2020-06-14 13:15:10,666 DEBUG i.n.u.i.PlatformDependent0 [main] direct buffer constructor: available
+2020-06-14 13:15:10,667 DEBUG i.n.u.i.PlatformDependent0 [main] java.nio.Bits.unaligned: available, true
+2020-06-14 13:15:10,667 DEBUG i.n.u.i.PlatformDependent0 [main] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-06-14 13:15:10,667 DEBUG i.n.u.i.PlatformDependent0 [main] java.nio.DirectByteBuffer.<init>(long, int): available
+2020-06-14 13:15:10,667 DEBUG i.n.u.i.PlatformDependent [main] sun.misc.Unsafe: available
+2020-06-14 13:15:10,668 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.tmpdir: C:\Users\AMARAHMA\AppData\Local\Temp (java.io.tmpdir)
+2020-06-14 13:15:10,668 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-06-14 13:15:10,669 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.maxDirectMemory: 3760193536 bytes
+2020-06-14 13:15:10,670 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-06-14 13:15:10,671 DEBUG i.n.u.i.CleanerJava6 [main] java.nio.ByteBuffer.cleaner(): available
+2020-06-14 13:15:10,671 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.noPreferDirect: false
+2020-06-14 13:15:10,684 DEBUG i.n.u.i.PlatformDependent [main] org.jctools-core.MpscChunkedArrayQueue: available
+2020-06-14 13:15:10,733 DEBUG i.n.h.s.JdkSslContext [main] Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2020-06-14 13:15:10,733 DEBUG i.n.h.s.JdkSslContext [main] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+2020-06-14 13:15:10,754 DEBUG i.n.u.i.InternalThreadLocalMap [main] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-06-14 13:15:10,754 DEBUG i.n.u.i.InternalThreadLocalMap [main] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-06-14 13:15:10,762 DEBUG i.n.c.MultithreadEventLoopGroup [main] -Dio.netty.eventLoopThreads: 16
+2020-06-14 13:15:10,771 DEBUG i.n.c.n.NioEventLoop [main] -Dio.netty.noKeySetOptimization: false
+2020-06-14 13:15:10,772 DEBUG i.n.c.n.NioEventLoop [main] -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-06-14 13:15:10,809 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.numHeapArenas: 16
+2020-06-14 13:15:10,809 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.numDirectArenas: 16
+2020-06-14 13:15:10,809 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.pageSize: 8192
+2020-06-14 13:15:10,809 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.maxOrder: 11
+2020-06-14 13:15:10,809 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.chunkSize: 16777216
+2020-06-14 13:15:10,809 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.tinyCacheSize: 512
+2020-06-14 13:15:10,809 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.smallCacheSize: 256
+2020-06-14 13:15:10,809 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.normalCacheSize: 64
+2020-06-14 13:15:10,809 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-06-14 13:15:10,809 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-06-14 13:15:10,809 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2020-06-14 13:15:10,809 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.useCacheForAllThreads: true
+2020-06-14 13:15:10,809 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2020-06-14 13:15:10,817 DEBUG i.n.b.ByteBufUtil [main] -Dio.netty.allocator.type: pooled
+2020-06-14 13:15:10,817 DEBUG i.n.b.ByteBufUtil [main] -Dio.netty.threadLocalDirectBufferSize: 0
+2020-06-14 13:15:10,817 DEBUG i.n.b.ByteBufUtil [main] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-06-14 13:15:11,661 DEBUG i.n.c.DefaultChannelId [Forwarding newSession on session null to remote] -Dio.netty.processId: 2000 (auto-detected)
+2020-06-14 13:15:11,664 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] -Djava.net.preferIPv4Stack: false
+2020-06-14 13:15:11,664 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] -Djava.net.preferIPv6Addresses: false
+2020-06-14 13:15:11,802 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-06-14 13:15:11,803 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-06-14 13:15:11,954 DEBUG i.n.c.DefaultChannelId [Forwarding newSession on session null to remote] -Dio.netty.machineId: 94:e6:f7:ff:fe:68:07:31 (auto-detected)
+2020-06-14 13:15:12,014 DEBUG i.n.b.AbstractByteBuf [AsyncHttpClient-3-1] -Dio.netty.buffer.checkAccessible: true
+2020-06-14 13:15:12,014 DEBUG i.n.b.AbstractByteBuf [AsyncHttpClient-3-1] -Dio.netty.buffer.checkBounds: true
+2020-06-14 13:15:12,014 DEBUG i.n.u.ResourceLeakDetectorFactory [AsyncHttpClient-3-1] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@722b69b
+2020-06-14 13:15:12,047 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.maxCapacityPerThread: 4096
+2020-06-14 13:15:12,048 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2020-06-14 13:15:12,048 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.linkCapacity: 16
+2020-06-14 13:15:12,048 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.ratio: 8
+2020-06-14 13:15:15,037 DEBUG i.n.u.i.ThreadLocalRandom [main] -Dio.netty.initialSeedUniquifier: 0xe48ae30377c96c11
+2020-06-14 13:15:15,073 INFO s.SetupTeardownForGoogleTests [main] Initiating driver and opening the specified url in local machine
+2020-06-14 13:15:18,401 INFO s.SetupTeardownForGoogleTests [main] **********Before Method has completed**********
+2020-06-14 13:15:18,418 INFO s.SetupTeardownForGoogleTests [main] Popularity check method has initiated
+2020-06-14 13:15:19,717 INFO s.SetupTeardownForGoogleTests [main] Search clicked after entering data
+2020-06-14 13:15:19,805 INFO s.SetupTeardownForGoogleTests [main] Popularity check method has completed after evaluation of popularity of search object
+2020-06-14 13:15:19,813 INFO s.SetupTeardownForGoogleTests [main] **********After Method is executing**********
+2020-06-14 13:15:24,151 INFO s.SetupTeardownForGoogleTests [main] **********After Method has completed**********
+2020-06-14 13:15:24,159 INFO s.SetupTeardownForGoogleTests [main] **********Before Method is executing**********
+2020-06-14 13:15:27,496 INFO s.SetupTeardownForGoogleTests [main] Initiating driver and opening the specified url in local machine
+2020-06-14 13:15:30,717 INFO s.SetupTeardownForGoogleTests [main] **********Before Method has completed**********
+2020-06-14 13:15:30,723 INFO s.SetupTeardownForGoogleTests [main] Doodle check method has initiated
+2020-06-14 13:15:30,829 INFO s.SetupTeardownForGoogleTests [main] Today is not a Doodle day
+2020-06-14 13:15:30,832 INFO s.SetupTeardownForGoogleTests [main] **********After Method is executing**********
+2020-06-14 13:15:35,163 INFO s.SetupTeardownForGoogleTests [main] **********After Method has completed**********
+2020-06-14 13:15:35,183 INFO s.SetupTeardownForGoogleTests [main] **********After Suite is executing**********
+2020-06-14 13:15:40,306 INFO s.SetupTeardownForGoogleTests [main] Closed all instances of browsers
+2020-06-14 13:15:41,136 INFO s.SetupTeardownForGoogleTests [main] **********After Suite has completed**********
+2020-06-21 13:19:03,599 INFO s.SetupTeardownForGoogleTests [main] **********Before Suite has initiated**********
+2020-06-21 13:19:03,611 INFO s.SetupTeardownForGoogleTests [main] **********Before Suite has completed**********
+2020-06-21 13:19:03,613 INFO s.SetupTeardownForGoogleTests [main] **********Before Test is executing**********
+2020-06-21 13:19:03,613 INFO s.SetupTeardownForGoogleTests [main] Setting capabilities for local execution
+2020-06-21 13:19:05,463 INFO s.SetupTeardownForGoogleTests [main] **********Before Test has completed**********
+2020-06-21 13:19:05,506 INFO s.SetupTeardownForGoogleTests [main] **********Before Method is executing**********
+2020-06-21 13:19:05,793 DEBUG i.n.u.i.l.InternalLoggerFactory [main] Using Log4J2 as the default logging framework
+2020-06-21 13:19:05,800 DEBUG i.n.u.ResourceLeakDetector [main] -Dio.netty.leakDetection.level: simple
+2020-06-21 13:19:05,800 DEBUG i.n.u.ResourceLeakDetector [main] -Dio.netty.leakDetection.targetRecords: 4
+2020-06-21 13:19:05,807 DEBUG i.n.u.ResourceLeakDetectorFactory [main] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4efcf8a
+2020-06-21 13:19:05,851 DEBUG i.n.u.i.PlatformDependent [main] Platform: Windows
+2020-06-21 13:19:05,854 DEBUG i.n.u.i.PlatformDependent0 [main] -Dio.netty.noUnsafe: false
+2020-06-21 13:19:05,854 DEBUG i.n.u.i.PlatformDependent0 [main] Java version: 8
+2020-06-21 13:19:05,856 DEBUG i.n.u.i.PlatformDependent0 [main] sun.misc.Unsafe.theUnsafe: available
+2020-06-21 13:19:05,857 DEBUG i.n.u.i.PlatformDependent0 [main] sun.misc.Unsafe.copyMemory: available
+2020-06-21 13:19:05,857 DEBUG i.n.u.i.PlatformDependent0 [main] java.nio.Buffer.address: available
+2020-06-21 13:19:05,858 DEBUG i.n.u.i.PlatformDependent0 [main] direct buffer constructor: available
+2020-06-21 13:19:05,859 DEBUG i.n.u.i.PlatformDependent0 [main] java.nio.Bits.unaligned: available, true
+2020-06-21 13:19:05,859 DEBUG i.n.u.i.PlatformDependent0 [main] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-06-21 13:19:05,859 DEBUG i.n.u.i.PlatformDependent0 [main] java.nio.DirectByteBuffer.<init>(long, int): available
+2020-06-21 13:19:05,859 DEBUG i.n.u.i.PlatformDependent [main] sun.misc.Unsafe: available
+2020-06-21 13:19:05,860 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.tmpdir: C:\Users\AMARAHMA\AppData\Local\Temp (java.io.tmpdir)
+2020-06-21 13:19:05,860 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-06-21 13:19:05,862 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.maxDirectMemory: 3760193536 bytes
+2020-06-21 13:19:05,862 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-06-21 13:19:05,864 DEBUG i.n.u.i.CleanerJava6 [main] java.nio.ByteBuffer.cleaner(): available
+2020-06-21 13:19:05,865 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.noPreferDirect: false
+2020-06-21 13:19:05,895 DEBUG i.n.u.i.PlatformDependent [main] org.jctools-core.MpscChunkedArrayQueue: available
+2020-06-21 13:19:06,020 DEBUG i.n.h.s.JdkSslContext [main] Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2020-06-21 13:19:06,020 DEBUG i.n.h.s.JdkSslContext [main] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+2020-06-21 13:19:06,066 DEBUG i.n.u.i.InternalThreadLocalMap [main] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-06-21 13:19:06,066 DEBUG i.n.u.i.InternalThreadLocalMap [main] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-06-21 13:19:06,084 DEBUG i.n.c.MultithreadEventLoopGroup [main] -Dio.netty.eventLoopThreads: 16
+2020-06-21 13:19:06,108 DEBUG i.n.c.n.NioEventLoop [main] -Dio.netty.noKeySetOptimization: false
+2020-06-21 13:19:06,108 DEBUG i.n.c.n.NioEventLoop [main] -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-06-21 13:19:06,195 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.numHeapArenas: 16
+2020-06-21 13:19:06,195 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.numDirectArenas: 16
+2020-06-21 13:19:06,195 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.pageSize: 8192
+2020-06-21 13:19:06,195 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.maxOrder: 11
+2020-06-21 13:19:06,196 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.chunkSize: 16777216
+2020-06-21 13:19:06,196 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.tinyCacheSize: 512
+2020-06-21 13:19:06,196 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.smallCacheSize: 256
+2020-06-21 13:19:06,196 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.normalCacheSize: 64
+2020-06-21 13:19:06,196 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-06-21 13:19:06,196 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-06-21 13:19:06,196 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2020-06-21 13:19:06,196 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.useCacheForAllThreads: true
+2020-06-21 13:19:06,197 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2020-06-21 13:19:06,211 DEBUG i.n.b.ByteBufUtil [main] -Dio.netty.allocator.type: pooled
+2020-06-21 13:19:06,212 DEBUG i.n.b.ByteBufUtil [main] -Dio.netty.threadLocalDirectBufferSize: 0
+2020-06-21 13:19:06,212 DEBUG i.n.b.ByteBufUtil [main] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-06-21 13:19:08,080 DEBUG i.n.c.DefaultChannelId [Forwarding newSession on session null to remote] -Dio.netty.processId: 17080 (auto-detected)
+2020-06-21 13:19:08,084 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] -Djava.net.preferIPv4Stack: false
+2020-06-21 13:19:08,084 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] -Djava.net.preferIPv6Addresses: false
+2020-06-21 13:19:08,678 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-06-21 13:19:08,679 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-06-21 13:19:09,144 DEBUG i.n.c.DefaultChannelId [Forwarding newSession on session null to remote] -Dio.netty.machineId: 94:e6:f7:ff:fe:68:07:31 (auto-detected)
+2020-06-21 13:19:09,341 DEBUG i.n.b.AbstractByteBuf [AsyncHttpClient-3-1] -Dio.netty.buffer.checkAccessible: true
+2020-06-21 13:19:09,341 DEBUG i.n.b.AbstractByteBuf [AsyncHttpClient-3-1] -Dio.netty.buffer.checkBounds: true
+2020-06-21 13:19:09,341 DEBUG i.n.u.ResourceLeakDetectorFactory [AsyncHttpClient-3-1] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@698e3d85
+2020-06-21 13:19:09,420 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.maxCapacityPerThread: 4096
+2020-06-21 13:19:09,420 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2020-06-21 13:19:09,420 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.linkCapacity: 16
+2020-06-21 13:19:09,420 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.ratio: 8
+2020-06-21 13:19:12,862 DEBUG i.n.u.i.ThreadLocalRandom [main] -Dio.netty.initialSeedUniquifier: 0x34515a5c27c2d663
+2020-06-21 13:19:12,906 INFO s.SetupTeardownForGoogleTests [main] Initiating driver and opening the specified url in local machine
+2020-06-21 13:19:16,776 INFO s.SetupTeardownForGoogleTests [main] **********Before Method has completed**********
+2020-06-21 13:19:16,941 INFO s.SetupTeardownForGoogleTests [main] Popularity check method has initiated
+2020-06-21 13:19:18,916 INFO s.SetupTeardownForGoogleTests [main] Search clicked after entering data
+2020-06-21 13:19:19,043 INFO s.SetupTeardownForGoogleTests [main] Popularity check method has completed after evaluation of popularity of search object
+2020-06-21 13:19:19,076 INFO s.SetupTeardownForGoogleTests [main] **********After Method is executing**********
+2020-06-21 13:19:19,545 INFO s.SetupTeardownForGoogleTests [main] **********After Method has completed**********
+2020-06-21 13:19:19,551 INFO s.SetupTeardownForGoogleTests [main] **********Before Method is executing**********
+2020-06-21 13:19:23,270 INFO s.SetupTeardownForGoogleTests [main] Initiating driver and opening the specified url in local machine
+2020-06-21 13:19:27,327 INFO s.SetupTeardownForGoogleTests [main] **********Before Method has completed**********
+2020-06-21 13:19:27,328 INFO s.SetupTeardownForGoogleTests [main] Doodle check method has initiated
+2020-06-21 13:19:27,393 INFO s.SetupTeardownForGoogleTests [main] **********After Method is executing**********
+2020-06-21 13:19:31,519 INFO s.SetupTeardownForGoogleTests [main] **********After Method has completed**********
+2020-06-21 13:19:31,547 INFO s.SetupTeardownForGoogleTests [main] **********After Suite is executing**********
+2020-06-21 13:19:32,121 INFO s.SetupTeardownForGoogleTests [main] Closed all instances of browsers
+2020-06-21 13:19:32,122 INFO s.SetupTeardownForGoogleTests [main] **********After Suite has completed**********
+2020-06-21 13:23:33,016 INFO s.SetupTeardownForGoogleTests [main] **********Before Suite has initiated**********
+2020-06-21 13:23:33,021 INFO s.SetupTeardownForGoogleTests [main] **********Before Suite has completed**********
+2020-06-21 13:23:33,022 INFO s.SetupTeardownForGoogleTests [main] **********Before Test is executing**********
+2020-06-21 13:23:33,022 INFO s.SetupTeardownForGoogleTests [main] Setting capabilities for local execution
+2020-06-21 13:23:33,397 INFO s.SetupTeardownForGoogleTests [main] **********Before Test has completed**********
+2020-06-21 13:23:33,414 INFO s.SetupTeardownForGoogleTests [main] **********Before Method is executing**********
+2020-06-21 13:23:33,516 DEBUG i.n.u.i.l.InternalLoggerFactory [main] Using Log4J2 as the default logging framework
+2020-06-21 13:23:33,519 DEBUG i.n.u.ResourceLeakDetector [main] -Dio.netty.leakDetection.level: simple
+2020-06-21 13:23:33,519 DEBUG i.n.u.ResourceLeakDetector [main] -Dio.netty.leakDetection.targetRecords: 4
+2020-06-21 13:23:33,522 DEBUG i.n.u.ResourceLeakDetectorFactory [main] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@302fec27
+2020-06-21 13:23:33,536 DEBUG i.n.u.i.PlatformDependent [main] Platform: Windows
+2020-06-21 13:23:33,537 DEBUG i.n.u.i.PlatformDependent0 [main] -Dio.netty.noUnsafe: false
+2020-06-21 13:23:33,537 DEBUG i.n.u.i.PlatformDependent0 [main] Java version: 8
+2020-06-21 13:23:33,538 DEBUG i.n.u.i.PlatformDependent0 [main] sun.misc.Unsafe.theUnsafe: available
+2020-06-21 13:23:33,539 DEBUG i.n.u.i.PlatformDependent0 [main] sun.misc.Unsafe.copyMemory: available
+2020-06-21 13:23:33,539 DEBUG i.n.u.i.PlatformDependent0 [main] java.nio.Buffer.address: available
+2020-06-21 13:23:33,539 DEBUG i.n.u.i.PlatformDependent0 [main] direct buffer constructor: available
+2020-06-21 13:23:33,540 DEBUG i.n.u.i.PlatformDependent0 [main] java.nio.Bits.unaligned: available, true
+2020-06-21 13:23:33,540 DEBUG i.n.u.i.PlatformDependent0 [main] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-06-21 13:23:33,540 DEBUG i.n.u.i.PlatformDependent0 [main] java.nio.DirectByteBuffer.<init>(long, int): available
+2020-06-21 13:23:33,540 DEBUG i.n.u.i.PlatformDependent [main] sun.misc.Unsafe: available
+2020-06-21 13:23:33,540 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.tmpdir: C:\Users\AMARAHMA\AppData\Local\Temp (java.io.tmpdir)
+2020-06-21 13:23:33,541 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-06-21 13:23:33,541 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.maxDirectMemory: 3760193536 bytes
+2020-06-21 13:23:33,541 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-06-21 13:23:33,542 DEBUG i.n.u.i.CleanerJava6 [main] java.nio.ByteBuffer.cleaner(): available
+2020-06-21 13:23:33,542 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.noPreferDirect: false
+2020-06-21 13:23:33,549 DEBUG i.n.u.i.PlatformDependent [main] org.jctools-core.MpscChunkedArrayQueue: available
+2020-06-21 13:23:33,584 DEBUG i.n.h.s.JdkSslContext [main] Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2020-06-21 13:23:33,584 DEBUG i.n.h.s.JdkSslContext [main] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+2020-06-21 13:23:33,603 DEBUG i.n.u.i.InternalThreadLocalMap [main] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-06-21 13:23:33,603 DEBUG i.n.u.i.InternalThreadLocalMap [main] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-06-21 13:23:33,610 DEBUG i.n.c.MultithreadEventLoopGroup [main] -Dio.netty.eventLoopThreads: 16
+2020-06-21 13:23:33,619 DEBUG i.n.c.n.NioEventLoop [main] -Dio.netty.noKeySetOptimization: false
+2020-06-21 13:23:33,619 DEBUG i.n.c.n.NioEventLoop [main] -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-06-21 13:23:33,650 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.numHeapArenas: 16
+2020-06-21 13:23:33,651 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.numDirectArenas: 16
+2020-06-21 13:23:33,651 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.pageSize: 8192
+2020-06-21 13:23:33,651 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.maxOrder: 11
+2020-06-21 13:23:33,651 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.chunkSize: 16777216
+2020-06-21 13:23:33,651 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.tinyCacheSize: 512
+2020-06-21 13:23:33,651 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.smallCacheSize: 256
+2020-06-21 13:23:33,651 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.normalCacheSize: 64
+2020-06-21 13:23:33,651 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-06-21 13:23:33,651 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-06-21 13:23:33,651 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2020-06-21 13:23:33,651 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.useCacheForAllThreads: true
+2020-06-21 13:23:33,651 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2020-06-21 13:23:33,657 DEBUG i.n.b.ByteBufUtil [main] -Dio.netty.allocator.type: pooled
+2020-06-21 13:23:33,657 DEBUG i.n.b.ByteBufUtil [main] -Dio.netty.threadLocalDirectBufferSize: 0
+2020-06-21 13:23:33,657 DEBUG i.n.b.ByteBufUtil [main] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-06-21 13:23:34,457 DEBUG i.n.c.DefaultChannelId [Forwarding newSession on session null to remote] -Dio.netty.processId: 18664 (auto-detected)
+2020-06-21 13:23:34,459 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] -Djava.net.preferIPv4Stack: false
+2020-06-21 13:23:34,459 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] -Djava.net.preferIPv6Addresses: false
+2020-06-21 13:23:34,576 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-06-21 13:23:34,577 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-06-21 13:23:34,699 DEBUG i.n.c.DefaultChannelId [Forwarding newSession on session null to remote] -Dio.netty.machineId: 94:e6:f7:ff:fe:68:07:31 (auto-detected)
+2020-06-21 13:23:34,750 DEBUG i.n.b.AbstractByteBuf [AsyncHttpClient-3-1] -Dio.netty.buffer.checkAccessible: true
+2020-06-21 13:23:34,750 DEBUG i.n.b.AbstractByteBuf [AsyncHttpClient-3-1] -Dio.netty.buffer.checkBounds: true
+2020-06-21 13:23:34,750 DEBUG i.n.u.ResourceLeakDetectorFactory [AsyncHttpClient-3-1] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1054cf8d
+2020-06-21 13:23:34,772 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.maxCapacityPerThread: 4096
+2020-06-21 13:23:34,772 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2020-06-21 13:23:34,772 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.linkCapacity: 16
+2020-06-21 13:23:34,772 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.ratio: 8
+2020-06-21 13:23:37,654 DEBUG i.n.u.i.ThreadLocalRandom [main] -Dio.netty.initialSeedUniquifier: 0xcc4d014671ffe3a9
+2020-06-21 13:23:37,699 INFO s.SetupTeardownForGoogleTests [main] Initiating driver and opening the specified url in local machine
+2020-06-21 13:23:41,322 INFO s.SetupTeardownForGoogleTests [main] **********Before Method has completed**********
+2020-06-21 13:23:41,334 INFO s.SetupTeardownForGoogleTests [main] Popularity check method has initiated
+2020-06-21 13:23:42,740 INFO s.SetupTeardownForGoogleTests [main] Search clicked after entering data
+2020-06-21 13:23:42,791 INFO s.SetupTeardownForGoogleTests [main] Popularity check method has completed after evaluation of popularity of search object
+2020-06-21 13:23:42,795 INFO s.SetupTeardownForGoogleTests [main] **********After Method is executing**********
+2020-06-21 13:23:47,139 INFO s.SetupTeardownForGoogleTests [main] **********After Method has completed**********
+2020-06-21 13:23:47,146 INFO s.SetupTeardownForGoogleTests [main] **********Before Method is executing**********
+2020-06-21 13:23:50,541 INFO s.SetupTeardownForGoogleTests [main] Initiating driver and opening the specified url in local machine
+2020-06-21 13:23:53,867 INFO s.SetupTeardownForGoogleTests [main] **********Before Method has completed**********
+2020-06-21 13:23:53,868 INFO s.SetupTeardownForGoogleTests [main] Doodle check method has initiated
+2020-06-21 13:23:53,895 INFO s.SetupTeardownForGoogleTests [main] **********After Method is executing**********
+2020-06-21 13:23:57,970 INFO s.SetupTeardownForGoogleTests [main] **********After Method has completed**********
+2020-06-21 13:23:58,016 INFO s.SetupTeardownForGoogleTests [main] **********After Suite is executing**********
+2020-06-21 13:23:58,578 INFO s.SetupTeardownForGoogleTests [main] Closed all instances of browsers
+2020-06-21 13:23:58,578 INFO s.SetupTeardownForGoogleTests [main] **********After Suite has completed**********
+2020-06-21 13:28:41,713 INFO s.SetupTeardownForGoogleTests [main] **********Before Suite has initiated**********
+2020-06-21 13:28:41,720 INFO s.SetupTeardownForGoogleTests [main] **********Before Suite has completed**********
+2020-06-21 13:28:41,724 INFO s.SetupTeardownForGoogleTests [main] **********Before Test is executing**********
+2020-06-21 13:28:41,724 INFO s.SetupTeardownForGoogleTests [main] Setting capabilities for local execution
+2020-06-21 13:28:42,365 INFO s.SetupTeardownForGoogleTests [main] **********Before Test has completed**********
+2020-06-21 13:28:42,409 INFO s.SetupTeardownForGoogleTests [main] **********Before Method is executing**********
+2020-06-21 13:28:42,756 DEBUG i.n.u.i.l.InternalLoggerFactory [main] Using Log4J2 as the default logging framework
+2020-06-21 13:28:42,762 DEBUG i.n.u.ResourceLeakDetector [main] -Dio.netty.leakDetection.level: simple
+2020-06-21 13:28:42,762 DEBUG i.n.u.ResourceLeakDetector [main] -Dio.netty.leakDetection.targetRecords: 4
+2020-06-21 13:28:42,768 DEBUG i.n.u.ResourceLeakDetectorFactory [main] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@59901c4d
+2020-06-21 13:28:42,805 DEBUG i.n.u.i.PlatformDependent [main] Platform: Windows
+2020-06-21 13:28:42,807 DEBUG i.n.u.i.PlatformDependent0 [main] -Dio.netty.noUnsafe: false
+2020-06-21 13:28:42,807 DEBUG i.n.u.i.PlatformDependent0 [main] Java version: 8
+2020-06-21 13:28:42,809 DEBUG i.n.u.i.PlatformDependent0 [main] sun.misc.Unsafe.theUnsafe: available
+2020-06-21 13:28:42,811 DEBUG i.n.u.i.PlatformDependent0 [main] sun.misc.Unsafe.copyMemory: available
+2020-06-21 13:28:42,815 DEBUG i.n.u.i.PlatformDependent0 [main] java.nio.Buffer.address: available
+2020-06-21 13:28:42,816 DEBUG i.n.u.i.PlatformDependent0 [main] direct buffer constructor: available
+2020-06-21 13:28:42,817 DEBUG i.n.u.i.PlatformDependent0 [main] java.nio.Bits.unaligned: available, true
+2020-06-21 13:28:42,817 DEBUG i.n.u.i.PlatformDependent0 [main] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-06-21 13:28:42,817 DEBUG i.n.u.i.PlatformDependent0 [main] java.nio.DirectByteBuffer.<init>(long, int): available
+2020-06-21 13:28:42,817 DEBUG i.n.u.i.PlatformDependent [main] sun.misc.Unsafe: available
+2020-06-21 13:28:42,818 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.tmpdir: C:\Users\AMARAHMA\AppData\Local\Temp (java.io.tmpdir)
+2020-06-21 13:28:42,818 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-06-21 13:28:42,820 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.maxDirectMemory: 3760193536 bytes
+2020-06-21 13:28:42,820 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-06-21 13:28:42,822 DEBUG i.n.u.i.CleanerJava6 [main] java.nio.ByteBuffer.cleaner(): available
+2020-06-21 13:28:42,822 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.noPreferDirect: false
+2020-06-21 13:28:42,839 DEBUG i.n.u.i.PlatformDependent [main] org.jctools-core.MpscChunkedArrayQueue: available
+2020-06-21 13:28:42,931 DEBUG i.n.h.s.JdkSslContext [main] Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2020-06-21 13:28:42,931 DEBUG i.n.h.s.JdkSslContext [main] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+2020-06-21 13:28:42,975 DEBUG i.n.u.i.InternalThreadLocalMap [main] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-06-21 13:28:42,975 DEBUG i.n.u.i.InternalThreadLocalMap [main] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-06-21 13:28:42,991 DEBUG i.n.c.MultithreadEventLoopGroup [main] -Dio.netty.eventLoopThreads: 16
+2020-06-21 13:28:43,011 DEBUG i.n.c.n.NioEventLoop [main] -Dio.netty.noKeySetOptimization: false
+2020-06-21 13:28:43,011 DEBUG i.n.c.n.NioEventLoop [main] -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-06-21 13:28:43,078 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.numHeapArenas: 16
+2020-06-21 13:28:43,078 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.numDirectArenas: 16
+2020-06-21 13:28:43,079 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.pageSize: 8192
+2020-06-21 13:28:43,079 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.maxOrder: 11
+2020-06-21 13:28:43,079 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.chunkSize: 16777216
+2020-06-21 13:28:43,079 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.tinyCacheSize: 512
+2020-06-21 13:28:43,079 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.smallCacheSize: 256
+2020-06-21 13:28:43,079 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.normalCacheSize: 64
+2020-06-21 13:28:43,079 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-06-21 13:28:43,079 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-06-21 13:28:43,079 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2020-06-21 13:28:43,079 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.useCacheForAllThreads: true
+2020-06-21 13:28:43,079 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2020-06-21 13:28:43,097 DEBUG i.n.b.ByteBufUtil [main] -Dio.netty.allocator.type: pooled
+2020-06-21 13:28:43,097 DEBUG i.n.b.ByteBufUtil [main] -Dio.netty.threadLocalDirectBufferSize: 0
+2020-06-21 13:28:43,097 DEBUG i.n.b.ByteBufUtil [main] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-06-21 13:28:44,205 DEBUG i.n.c.DefaultChannelId [Forwarding newSession on session null to remote] -Dio.netty.processId: 620 (auto-detected)
+2020-06-21 13:28:44,211 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] -Djava.net.preferIPv4Stack: false
+2020-06-21 13:28:44,211 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] -Djava.net.preferIPv6Addresses: false
+2020-06-21 13:28:44,392 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-06-21 13:28:44,392 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-06-21 13:28:44,627 DEBUG i.n.c.DefaultChannelId [Forwarding newSession on session null to remote] -Dio.netty.machineId: 94:e6:f7:ff:fe:68:07:31 (auto-detected)
+2020-06-21 13:28:44,724 DEBUG i.n.b.AbstractByteBuf [AsyncHttpClient-3-1] -Dio.netty.buffer.checkAccessible: true
+2020-06-21 13:28:44,724 DEBUG i.n.b.AbstractByteBuf [AsyncHttpClient-3-1] -Dio.netty.buffer.checkBounds: true
+2020-06-21 13:28:44,724 DEBUG i.n.u.ResourceLeakDetectorFactory [AsyncHttpClient-3-1] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@65e8830b
+2020-06-21 13:28:44,785 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.maxCapacityPerThread: 4096
+2020-06-21 13:28:44,785 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2020-06-21 13:28:44,785 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.linkCapacity: 16
+2020-06-21 13:28:44,785 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.ratio: 8
+2020-06-21 13:28:48,068 DEBUG i.n.u.i.ThreadLocalRandom [main] -Dio.netty.initialSeedUniquifier: 0x203b175913115ae2
+2020-06-21 13:28:48,114 INFO s.SetupTeardownForGoogleTests [main] Initiating driver and opening the specified url in local machine
+2020-06-21 13:28:51,531 INFO s.SetupTeardownForGoogleTests [main] **********Before Method has completed**********
+2020-06-21 13:28:51,557 INFO s.SetupTeardownForGoogleTests [main] Doodle check method has initiated
+2020-06-21 13:30:23,723 INFO s.SetupTeardownForGoogleTests [main] **********After Method is executing**********
+2020-06-21 13:30:27,860 INFO s.SetupTeardownForGoogleTests [main] **********After Method has completed**********
+2020-06-21 13:30:27,911 INFO s.SetupTeardownForGoogleTests [main] **********After Suite is executing**********
+2020-06-21 13:30:28,620 INFO s.SetupTeardownForGoogleTests [main] Closed all instances of browsers
+2020-06-21 13:30:28,621 INFO s.SetupTeardownForGoogleTests [main] **********After Suite has completed**********
+2020-06-21 13:32:35,573 INFO s.SetupTeardownForGoogleTests [main] **********Before Suite has initiated**********
+2020-06-21 13:32:35,580 INFO s.SetupTeardownForGoogleTests [main] **********Before Suite has completed**********
+2020-06-21 13:32:35,584 INFO s.SetupTeardownForGoogleTests [main] **********Before Test is executing**********
+2020-06-21 13:32:35,585 INFO s.SetupTeardownForGoogleTests [main] Setting capabilities for local execution
+2020-06-21 13:32:36,143 INFO s.SetupTeardownForGoogleTests [main] **********Before Test has completed**********
+2020-06-21 13:32:36,170 INFO s.SetupTeardownForGoogleTests [main] **********Before Method is executing**********
+2020-06-21 13:32:36,366 DEBUG i.n.u.i.l.InternalLoggerFactory [main] Using Log4J2 as the default logging framework
+2020-06-21 13:32:36,370 DEBUG i.n.u.ResourceLeakDetector [main] -Dio.netty.leakDetection.level: simple
+2020-06-21 13:32:36,371 DEBUG i.n.u.ResourceLeakDetector [main] -Dio.netty.leakDetection.targetRecords: 4
+2020-06-21 13:32:36,378 DEBUG i.n.u.ResourceLeakDetectorFactory [main] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@59901c4d
+2020-06-21 13:32:36,404 DEBUG i.n.u.i.PlatformDependent [main] Platform: Windows
+2020-06-21 13:32:36,406 DEBUG i.n.u.i.PlatformDependent0 [main] -Dio.netty.noUnsafe: false
+2020-06-21 13:32:36,406 DEBUG i.n.u.i.PlatformDependent0 [main] Java version: 8
+2020-06-21 13:32:36,407 DEBUG i.n.u.i.PlatformDependent0 [main] sun.misc.Unsafe.theUnsafe: available
+2020-06-21 13:32:36,408 DEBUG i.n.u.i.PlatformDependent0 [main] sun.misc.Unsafe.copyMemory: available
+2020-06-21 13:32:36,408 DEBUG i.n.u.i.PlatformDependent0 [main] java.nio.Buffer.address: available
+2020-06-21 13:32:36,409 DEBUG i.n.u.i.PlatformDependent0 [main] direct buffer constructor: available
+2020-06-21 13:32:36,410 DEBUG i.n.u.i.PlatformDependent0 [main] java.nio.Bits.unaligned: available, true
+2020-06-21 13:32:36,410 DEBUG i.n.u.i.PlatformDependent0 [main] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-06-21 13:32:36,410 DEBUG i.n.u.i.PlatformDependent0 [main] java.nio.DirectByteBuffer.<init>(long, int): available
+2020-06-21 13:32:36,410 DEBUG i.n.u.i.PlatformDependent [main] sun.misc.Unsafe: available
+2020-06-21 13:32:36,410 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.tmpdir: C:\Users\AMARAHMA\AppData\Local\Temp (java.io.tmpdir)
+2020-06-21 13:32:36,410 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-06-21 13:32:36,411 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.maxDirectMemory: 3760193536 bytes
+2020-06-21 13:32:36,412 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-06-21 13:32:36,413 DEBUG i.n.u.i.CleanerJava6 [main] java.nio.ByteBuffer.cleaner(): available
+2020-06-21 13:32:36,413 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.noPreferDirect: false
+2020-06-21 13:32:36,427 DEBUG i.n.u.i.PlatformDependent [main] org.jctools-core.MpscChunkedArrayQueue: available
+2020-06-21 13:32:36,524 DEBUG i.n.h.s.JdkSslContext [main] Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2020-06-21 13:32:36,525 DEBUG i.n.h.s.JdkSslContext [main] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+2020-06-21 13:32:36,558 DEBUG i.n.u.i.InternalThreadLocalMap [main] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-06-21 13:32:36,559 DEBUG i.n.u.i.InternalThreadLocalMap [main] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-06-21 13:32:36,571 DEBUG i.n.c.MultithreadEventLoopGroup [main] -Dio.netty.eventLoopThreads: 16
+2020-06-21 13:32:36,587 DEBUG i.n.c.n.NioEventLoop [main] -Dio.netty.noKeySetOptimization: false
+2020-06-21 13:32:36,587 DEBUG i.n.c.n.NioEventLoop [main] -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-06-21 13:32:36,636 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.numHeapArenas: 16
+2020-06-21 13:32:36,636 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.numDirectArenas: 16
+2020-06-21 13:32:36,636 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.pageSize: 8192
+2020-06-21 13:32:36,636 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.maxOrder: 11
+2020-06-21 13:32:36,636 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.chunkSize: 16777216
+2020-06-21 13:32:36,636 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.tinyCacheSize: 512
+2020-06-21 13:32:36,636 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.smallCacheSize: 256
+2020-06-21 13:32:36,636 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.normalCacheSize: 64
+2020-06-21 13:32:36,636 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-06-21 13:32:36,636 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-06-21 13:32:36,636 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2020-06-21 13:32:36,636 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.useCacheForAllThreads: true
+2020-06-21 13:32:36,636 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2020-06-21 13:32:36,648 DEBUG i.n.b.ByteBufUtil [main] -Dio.netty.allocator.type: pooled
+2020-06-21 13:32:36,648 DEBUG i.n.b.ByteBufUtil [main] -Dio.netty.threadLocalDirectBufferSize: 0
+2020-06-21 13:32:36,649 DEBUG i.n.b.ByteBufUtil [main] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-06-21 13:32:37,617 DEBUG i.n.c.DefaultChannelId [Forwarding newSession on session null to remote] -Dio.netty.processId: 13476 (auto-detected)
+2020-06-21 13:32:37,620 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] -Djava.net.preferIPv4Stack: false
+2020-06-21 13:32:37,620 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] -Djava.net.preferIPv6Addresses: false
+2020-06-21 13:32:37,806 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-06-21 13:32:37,808 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-06-21 13:32:38,048 DEBUG i.n.c.DefaultChannelId [Forwarding newSession on session null to remote] -Dio.netty.machineId: 94:e6:f7:ff:fe:68:07:31 (auto-detected)
+2020-06-21 13:32:38,176 DEBUG i.n.b.AbstractByteBuf [AsyncHttpClient-3-1] -Dio.netty.buffer.checkAccessible: true
+2020-06-21 13:32:38,177 DEBUG i.n.b.AbstractByteBuf [AsyncHttpClient-3-1] -Dio.netty.buffer.checkBounds: true
+2020-06-21 13:32:38,177 DEBUG i.n.u.ResourceLeakDetectorFactory [AsyncHttpClient-3-1] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1669a319
+2020-06-21 13:32:38,235 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.maxCapacityPerThread: 4096
+2020-06-21 13:32:38,235 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2020-06-21 13:32:38,235 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.linkCapacity: 16
+2020-06-21 13:32:38,235 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.ratio: 8
+2020-06-21 13:32:41,491 DEBUG i.n.u.i.ThreadLocalRandom [main] -Dio.netty.initialSeedUniquifier: 0xbaf39b71041ac7b4
+2020-06-21 13:32:41,546 INFO s.SetupTeardownForGoogleTests [main] Initiating driver and opening the specified url in local machine
+2020-06-21 13:32:44,884 INFO s.SetupTeardownForGoogleTests [main] **********Before Method has completed**********
+2020-06-21 13:32:44,901 INFO s.SetupTeardownForGoogleTests [main] Doodle check method has initiated
+2020-06-21 13:32:49,655 INFO s.SetupTeardownForGoogleTests [main] Today is not a Doodle day
+2020-06-21 13:32:51,800 INFO s.SetupTeardownForGoogleTests [main] **********After Method is executing**********
+2020-06-21 13:32:55,922 INFO s.SetupTeardownForGoogleTests [main] **********After Method has completed**********
+2020-06-21 13:32:56,021 INFO s.SetupTeardownForGoogleTests [main] **********After Suite is executing**********
+2020-06-21 13:32:56,654 INFO s.SetupTeardownForGoogleTests [main] Closed all instances of browsers
+2020-06-21 13:32:56,655 INFO s.SetupTeardownForGoogleTests [main] **********After Suite has completed**********
